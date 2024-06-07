@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+    <title>Chatbot Brainstorming</title>
+</head>
+<body>
+    <h1>Chatbot Brainstorming</h1>
+    <form method="POST">
+        <label for="question">Question:</label><br>
+        <input type="text" id="question" name="question" required><br>
+        <input type="submit" value="Submit">
+    </form>
+    {% if best_response %}
+        <h2>Best Response:</h2>
+        <p>{{ best_response.choices[0].text }}</p>
+    {% endif %}
+</body>
+</html>
+
