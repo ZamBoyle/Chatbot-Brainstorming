@@ -2,6 +2,8 @@
 
 A Flask application that allows multiple chatbots to brainstorm and provide the best response to a user's question.
 
+It's just an idea ! The code is certainly buggy: I need time and some API Keys of several AI ChatBots :-)
+
 ## Features
 - Send a question to multiple chatbots.
 - Collect responses from each chatbot.
